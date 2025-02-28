@@ -16,6 +16,7 @@ public class Zoo
     public Zoo()
     {
         // initialise instance variables
+        zooBirds = new ArrayList<>();
         zooBirds.add(new Bird("blue", "blue jay", 2));
         zooBirds.add(new Bird("red", "red cardinal", 1));
         zooBirds.add(new Bird("blue", "blue jay", 2));
@@ -29,13 +30,15 @@ public class Zoo
     /**
      * Exam Question 16
      */
-    //public void countBlueBirds() {
-    //for(ArrayList Bird: zooBirds) {
-            //int blueBirds= 0;
-            //this.color = "blue";
-            //blueBirds= blueBirds +1;
-           // System.out.println(blueBirds);
-            //}
-    //}   
+    public int countBlueBirds() {
+        int blueBirds= 0;
+        for(Bird b: zooBirds) {            
+            if(b.color.equals("blue")) {
+                blueBirds= blueBirds +1;
+                System.out.println(blueBirds);
+            } 
+    }
+    return blueBirds;
+    }   
 }
 

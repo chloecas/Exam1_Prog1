@@ -7,7 +7,7 @@
  */
 public class Bird
 {
-    private String color;
+    public String color;
     private String breed;
     private int age;
 
