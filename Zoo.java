@@ -18,21 +18,24 @@ public class Zoo
         // initialise instance variables
         zooBirds.add(new Bird("blue", "blue jay", 2));
         zooBirds.add(new Bird("red", "red cardinal", 1));
-
+        zooBirds.add(new Bird("blue", "blue jay", 2));
+        zooBirds.add(new Bird("red", "red cardinal", 1));
+        zooBirds.add(new Bird("blue", "blue jay", 2));
+        zooBirds.add(new Bird("red", "red cardinal", 1));
+        zooBirds.add(new Bird("blue", "blue jay", 2));
+        zooBirds.add(new Bird("red", "red cardinal", 1));
     }
 
     /**
      * Exam Question 16
      */
-    public int countBlueBirds()
-    {
-        //while(String Bird: zooBirds){
-            //index=0;
-            //blueBirds=0;
-            //String color.equals "blue";
+    //public void countBlueBirds() {
+    //for(ArrayList Bird: zooBirds) {
+            //int blueBirds= 0;
+            //this.color = "blue";
             //blueBirds= blueBirds +1;
-            //index++; }
-        //return blueBirds;
-            return 0;
-    }
+           // System.out.println(blueBirds);
+            //}
+    //}   
 }
+

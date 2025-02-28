@@ -12,11 +12,9 @@ public class Salary
      */
     public void getSalary(int workedHours, double wage)
     {
-        //int workedHours= 80;
-        //double wage= 20.00;
         double taxes= 0.30;
         double grossSalary= workedHours * wage;
-        double netSalary= grossSalary + (grossSalary * taxes);
+        double netSalary= grossSalary - (grossSalary * taxes);
         System.out.println(netSalary);
     }
 }

@@ -15,7 +15,6 @@ public class AgeCalculator
      */
     public void getAge(int yearOfBirth)
     {
-        //int yearOfBirth= 1998;
         int age= currentYear-yearOfBirth;
         if(age>=16){
             System.out.println("User is "+age + " years old. They can drive");
